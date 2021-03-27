@@ -8,6 +8,7 @@ export default function Home() {
         <title>Sekoya</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+    {/*
       <main className="navigation">
         <div className="navigation-logo">
           <Link href="/"><a>LOGO</a></Link>
@@ -34,6 +35,19 @@ export default function Home() {
             </li>
           </ul>
         </div>
+      </main>
+      */}
+      <main className="index">
+        <div className="index-logo">
+          <Link href="/"><a>LOGO</a></Link>
+        </div>
+        <div className="index-detail">
+          <p>Açıklama</p>
+        </div>
+        <a href="/hakkimizda">
+        <div className="index-button buttonn">
+          <span>HELLO</span>
+        </div></a>
       </main>
     </div>
   )

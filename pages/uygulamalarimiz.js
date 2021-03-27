@@ -82,12 +82,68 @@ export default function Uygulamalarımız() {
         </div>
       </div>
     {/*Modal*/}
+    <h1>Uygulamalarımız#2</h1>
+    <div className="container uygu">
+      <div className="row">
+        <div className="col-md-4 uygula" data-bs-toggle="modal" data-bs-target="#proje1">
+          <img className="portfolio-item-img" src="background.jpg" alt=""/>
+          <p>#Proje 1</p>
+        </div>
+        <div className="col-md-4 uygula">
+          <img className="portfolio-item-img" src="background.jpg" alt=""/>
+          <p>#Proje</p>
+        </div>
+        <div className="col-md-4 uygula">
+          <img className="portfolio-item-img" src="background.jpg" alt=""/>
+          <p>#Proje</p>
+        </div>
+        <div className="col-md-4 uygula">
+          <img className="portfolio-item-img" src="background.jpg" alt=""/>
+          <p>#Proje</p>
+        </div>
+        <div className="col-md-4 uygula">
+          <img className="portfolio-item-img" src="background.jpg" alt=""/>
+          <p>#Proje</p>
+        </div>
+        <div className="col-md-4 uygula">
+          <img className="portfolio-item-img" src="background.jpg" alt=""/>
+          <p>#Proje</p>
+        </div>
+        <div className="col-md-4 uygula">
+          <img className="portfolio-item-img" src="background.jpg" alt=""/>
+          <p>#Proje</p>
+        </div>
+        <div className="col-md-4 uygula">
+          <img className="portfolio-item-img" src="background.jpg" alt=""/>
+          <p>#Proje</p>
+        </div>
+      </div> 
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {/*#Proje 1*/}
       <div class="modal fade" id="proje1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
           <div class="modal-content">
             <div class="modal-header">
-              <h3 class="modal-title" id="exampleModalLabel">#Proje2</h3>
+              <h3 class="modal-title" id="exampleModalLabel">#Proje1</h3>
             </div>
             <div class="modal-body">
               <div class="container-fluid">

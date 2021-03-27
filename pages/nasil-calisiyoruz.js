@@ -63,45 +63,6 @@ export default function Nasıl() {
           </div>
         </div>
       </div>
-       <div className="container">
-          <div class="row justify-content-md-center">
-            <div class="col-md-1 ">
-              <div className="buttonn">
-                <span>Ön Görüşme</span>
-              </div>
-            </div>
-            <div class="col-md-1 ">
-              <div className="buttonn">
-                <span>Fikir Aşaması</span>
-              </div>
-            </div>
-            <div class="col-md-1 ">
-              <div className="buttonn">
-                <span>Takdim</span>
-              </div>
-            </div>
-            <div class="col-md-1 ">
-              <div className="buttonn">
-                <span>El Sıkışma</span>
-              </div>
-            </div>
-            <div class="col-md-1 ">
-              <div className="buttonn">
-                <span>Üretim ve İşçilik</span>
-              </div>
-            </div>
-            <div class="col-md-1 ">
-              <div className="buttonn">
-                <span>Teslimat</span>
-              </div>
-            </div>
-            <div class="col-md-1 ">
-              <div className="buttonn">
-                <span>Memnuniyet</span>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <ul class="nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
@@ -113,9 +74,11 @@ export default function Nasıl() {
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#how_three" type="button" role="tab" aria-controls="how_three" aria-selected="false">Takdim</button>
           </li>
+        {/*
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#how_four" type="button" role="tab" aria-controls="how_four" aria-selected="false">El Sıkışma</button>
           </li>
+          */}
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#how_five" type="button" role="tab" aria-controls="how_five" aria-selected="false">Üretim ve İşçilik</button>
           </li>
@@ -127,13 +90,13 @@ export default function Nasıl() {
           </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="how_one" role="tabpanel" aria-labelledby="pills-home-tab">a</div>
-          <div class="tab-pane fade" id="how_two" role="tabpanel" aria-labelledby="pills-profile-tab">b</div>
-          <div class="tab-pane fade" id="how_three" role="tabpanel" aria-labelledby="pills-contact-tab">c</div>
-          <div class="tab-pane fade" id="how_four" role="tabpanel" aria-labelledby="pills-contact-tab">d</div>
-          <div class="tab-pane fade" id="how_five" role="tabpanel" aria-labelledby="pills-contact-tab">e</div>
-          <div class="tab-pane fade" id="how_six" role="tabpanel" aria-labelledby="pills-contact-tab">f</div>
-          <div class="tab-pane fade" id="how_seven" role="tabpanel" aria-labelledby="pills-contact-tab">g</div>
+          <div class="tab-pane fade show active" id="how_one" role="tabpanel" aria-labelledby="pills-home-tab">a Öngörüşme</div>
+          <div class="tab-pane fade" id="how_two" role="tabpanel" aria-labelledby="pills-profile-tab">b Fikir</div>
+          <div class="tab-pane fade" id="how_three" role="tabpanel" aria-labelledby="pills-contact-tab">c Takdim</div>
+        {/*  <div class="tab-pane fade" id="how_four" role="tabpanel" aria-labelledby="pills-contact-tab">d El</div> */}
+          <div class="tab-pane fade" id="how_five" role="tabpanel" aria-labelledby="pills-contact-tab">d Üretim</div>
+          <div class="tab-pane fade" id="how_six" role="tabpanel" aria-labelledby="pills-contact-tab">e Teslimat</div>
+          <div class="tab-pane fade" id="how_seven" role="tabpanel" aria-labelledby="pills-contact-tab">f Memnuniyet</div>
         </div>
   
 
