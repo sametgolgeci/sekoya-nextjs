@@ -5,6 +5,8 @@ body {
   font-family:futura, PT Sans;
   width: 100vw;
   height: 100vh;
+  font-size: 16px;
+  background-color: white;
  }
 a {
   color: inherit;
@@ -41,18 +43,27 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  position: sticky;
+  justify-content: space-between;
 }
 .sidebar-logo {
-  margin: 5rem 0;
+  margin: 1rem 0 0;
   text-align: center;
+  z-index: 1;
 }
 .sidebar-logo-img {
-  width: 80%;
+  width: 100%;
   height: auto;
+  max-width: 350px;
 }
 .sidebar-items {
   font-weight: 100;
+  font-size: 1rem;
+  right: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: block;
 }
 .sidebar-item {
   margin: 1rem 0;
@@ -63,14 +74,61 @@ main {
   opacity: 1;
   transition: 0.7s;
 }
+.sidebar-item.active{
+  font-weight: 600;
+  opacity: 0.8;
+}
 .sidebar-social {
   display: flex;
   flex-wrap: wrap;
-  position: fixed;
-  bottom: 2rem;
+  bottom: 1rem;
+  vertical-align: center;
 }
 .sidebar-social-item {
-  margin: 1rem;
+  margin: 1rem 0.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: center;
+}
+.social-item {
+  height: 1.5rem;
+  width: 1.5rem;
+  vertical-align: center;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    justify-content: space-between;
+  }
+  .sidebar-logo {
+    margin: 5rem 0;
+    text-align: center;
+    z-index: 1;
+  }
+  .sidebar-logo-img {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+  }
+  .sidebar-menu {
+    display: none;
+    transition: 0.7s;
+  }
+  .sidebar-items {
+    display: block;
+    font-weight: 100;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    padding-right: 2rem;
+    width: auto;
+    text-align: left;
+  }
 }
 
 /* Index */
@@ -81,40 +139,58 @@ main {
   flex-wrap: wrap;
 }
 .index-img {
+  margin: 1rem 0;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .index-img img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: fill;
 }
 .index-text {
   width: 100%; 
-  height: 100vh;
-  padding: 6rem 0rem;
+  height: auto;
+  padding: 6rem 0.5rem;
 }
 .index-text > p {
   font-weight: 100;
-  font-size: 1.75rem;
+  font-size: 1.55rem;
   opacity: 0.4;
   margin: 2rem 0;
-}
-.index-text > p:first-child {
-  font-size: 3rem;
-  font-weight: 900;
-  opacity: 1.0;
 }
 .index-button {
   text-align: center;
   margin: 5rem 0 0;
+  transition: 0.7s;
 }
 .index-button > button {
   background-color: white;
   padding: 1rem;
   border: 3px solid black;
   cursor: pointer;
+}
+.index-button:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
 
+@media (min-width: 768px) {
+  .index-img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .index-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .index-text {
+    width: 100%; 
+    height: 100vh;
+    padding: 6rem 0.5rem;
+  }
 }
 /* 
 .navigation {
