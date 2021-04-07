@@ -13,28 +13,32 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <title>Sekoya</title>
         <link rel="icon" href="/favicon.ico"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"/>
       </Head>
       <main>
         <div className="col-md-3 col-sm-12 col-xs-12 sidebar">
           <div className="sidebar-logo">
-            <img className="sidebar-logo-img" src="logo-2.png" alt="logo"/>
+            <Link href="/"><a>
+              <img className="sidebar-logo-img" src="logo-2.png" alt="logo"/>
+            </a></Link>
           </div>
           <div className="sidebar-items">
             <ul>
-              <li className="sidebar-item active">
-                <Link href="#">Hakkımızda</Link>
+              <li className="sidebar-item">
+                <Link href="/ekip">Ekibimiz</Link>
               </li>
               <li className="sidebar-item">
-                <Link href="#">Nasıl Çalışıyoruz</Link>
+                <Link href="/nasil-calisiyoruz">Nasıl Çalışıyoruz</Link>
               </li>
               <li className="sidebar-item">
-                <Link href="#">Hizmetlerimiz</Link>
+                <Link href="/hizmetlerimiz">Hizmetlerimiz</Link>
               </li>
               <li className="sidebar-item">
-                <Link href="#">Uygulamalarımız</Link>
+                <Link href="/uygulamalarimiz">Uygulamalarımız</Link>
               </li>
               <li className="sidebar-item">
-                <Link href="#">İletişim</Link>
+                <Link href="/iletisim">İletişim</Link>
               </li>
             </ul> 
           </div>
@@ -52,7 +56,9 @@ export default function Home() {
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
             <p> laborum nesciunt possimus eum atque</p>
             <div className="index-button">
-              <button type="button"><a href="#">??????????</a></button>
+              <a href="#">
+                <button type="button">??DENEME??</button>
+              </a>
             </div>
           </div>
         </div>
