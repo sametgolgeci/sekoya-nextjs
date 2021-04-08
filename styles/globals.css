@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Condensed', futura, sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   width: 100vw;
   height: 100vh;
   font-size: 16px;
@@ -46,7 +46,6 @@ main {
   height: auto;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  justify-content: space-between;
 }
 .sidebar-logo {
   margin: 1rem 0 0;
@@ -67,8 +66,11 @@ main {
   text-align: center;
   display: block;
 }
+.sidebar-items ul {
+  margin-right: 1rem;
+}
 .sidebar-item {
-  margin: 1rem 0;
+  margin: 0.75rem 0;
   font-weight: 400;
   opacity: 0.3;
   transition: 0.7s;
@@ -79,14 +81,15 @@ main {
   transition: 0.7s;
 }
 .sidebar-item.active{
-  font-weight: 600;
-  opacity: 0.8;
+  font-weight: 500;
+  opacity: 1;
 }
 .sidebar-social {
   display: flex;
   flex-wrap: wrap;
   bottom: 1rem;
   vertical-align: center;
+  position: relative;
 }
 .sidebar-social-item {
   margin: 1rem 0.75rem;
@@ -111,10 +114,9 @@ main {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    justify-content: space-between;
   }
   .sidebar-logo {
-    margin: 4rem 0;
+    margin: 1rem 0;
     text-align: center;
     z-index: 1;
   }
@@ -135,6 +137,13 @@ main {
     padding-right: 2rem;
     width: auto;
     text-align: left;
+  }
+  .sidebar-social {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 1rem;
+    vertical-align: center;
+    position: fixed;
   }
 }
 
@@ -203,6 +212,7 @@ main {
 }
 
 /* Ekip */
+
 .ekip {
   padding: 3rem 0;
   z-index: 10;
@@ -266,13 +276,68 @@ main {
   }
 }
 
+/* Nasıl Çalışıyoruz */
 
-
-
-
-
-
-
+.nasil {
+  padding: 3rem 0;
+  z-index: 10;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+.nasil h1 {
+  text-align: center;
+  display: block;
+  position: relative;
+}
+.nasil-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nasil-item {
+  display: flex;
+  justify-content: center;
+}
+.nasil-item button,
+.nasil-item button::after {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.nasil-item button {
+  background: none;
+  border: 3px solid white;
+  border-radius: 0.25rem;
+  color: black;
+  display: block;
+  position: relative;
+}
+.nasil-item button::before,
+.nasil-item button::after {
+  background: black;
+  content: '';
+  position: absolute;
+  border-radius: 0.25rem;
+  z-index: -1;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+.nasil-item button:hover {
+  color: white;
+}
+.nasil-item button:hover:after {
+  width: 100%;
+}
+.nasil-text {
+  text-align: center;
+  margin: 5rem 0;
+}
 
 
 

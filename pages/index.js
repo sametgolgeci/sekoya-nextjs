@@ -13,8 +13,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <title>Sekoya</title>
         <link rel="icon" href="/favicon.ico"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"/>
       </Head>
       <main>
         <div className="col-md-3 col-sm-12 col-xs-12 sidebar">
