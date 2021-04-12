@@ -365,11 +365,14 @@ main {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .hizmet-text {
   height: 33.3%;
   width: 75%;
+  max-width: 75%;
   text-align: center;
   position: absolute;
   z-index: 2;
@@ -423,16 +426,47 @@ main {
 }
 .hizmet-text:hover {
   opacity: 1;
+  transition: 0.7s;
 }
 .hizmet-text:hover:nth-child(n) {
   transform: scale(1.1);
+  transition: 0.7s;
 }
 
+/* Uygulamalarımız */
 
+.uygulama {
+  padding: 3rem 0;
+  z-index: 10;
+  background-color: white;
+}
+.uygulama h1 {
+  text-align: center;
+  margin-bottom: 3rem; 
+}
+.uygulama-img {
+  width: 100%;
+  height: auto;
+}
 
-
-
-
+/* Ürünler */
+.urunler {
+  padding: 3rem 0;
+  z-index: 10;
+  background-color: white;
+}
+.urunler-img {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+.urunler-right {
+  padding: 5rem;
+}
+.urunler-text {
+  position: sticky;
+  top: 3rem;
+}
 
 /*
 .navigation {
