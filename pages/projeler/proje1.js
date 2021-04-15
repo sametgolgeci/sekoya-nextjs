@@ -46,17 +46,17 @@ export default function Home() {
             <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faBehanceSquare}/></a></div>
           </div>
         </div>
-        <div className="col-md-9 col-sm-12 col-xs-12 urunler">
+        <div className="col-md-9 col-sm-12 col-xs-12 proje">
           <div className="container">
             <div className="row">
               <div className="col-md-9 col-sm-12 col-xs-12">
                 <h1>Proje#1</h1>
-                <a href="/../hizmet-1.jpg" target="_blank"><img className="urunler-img" src="../hizmet-1.jpg" alt=""/></a>
-                <a href="/../hizmet-2.jpg" target="_blank"><img className="urunler-img" src="../hizmet-2.jpg" alt=""/></a>
-                <a href="/../hizmet-3.jpg" target="_blank"><img className="urunler-img" src="../hizmet-3.jpg" alt=""/></a>
+                <a href="/../hizmet-1.jpg" target="_blank"><img className="proje-img" src="../hizmet-1.jpg" alt=""/></a>
+                <a href="/../hizmet-2.jpg" target="_blank"><img className="proje-img" src="../hizmet-2.jpg" alt=""/></a>
+                <a href="/../hizmet-3.jpg" target="_blank"><img className="proje-img" src="../hizmet-3.jpg" alt=""/></a>
               </div>
-              <div className="col-md-3 col-sm-12 col-xs-12 urunler-right">
-                <div className="urunler-text">
+              <div className="col-md-3 col-sm-12 col-xs-12 proje-right">
+                <div className="proje-text">
                   <p><strong>AÇIKLAMA,Künye</strong></p>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae hic laudantium fugiat alias assumenda quaerat consequatur expedita quidem ab consequuntur quis quo dolorem delectus, quia totam commodi impedit eum at.</p>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae hic laudantium fugiat alias assumenda quaerat consequatur expedita quidem ab consequuntur quis quo dolorem delectus, quia totam commodi impedit eum at.</p>
