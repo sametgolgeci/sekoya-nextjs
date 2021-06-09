@@ -105,7 +105,14 @@
   flex: 0 0 auto;
   width: auto;
 }
-
+.col-sidebar {
+  flex: 0 0 auto;
+  width: 20%;
+}
+.col-main {
+  flex: 0 0 auto;
+  width: 80%;
+}
 .col-1 {
   flex: 0 0 auto;
   width: 8.3333333333%;
@@ -314,7 +321,14 @@
     flex: 0 0 auto;
     width: auto;
   }
-
+  .col-sm-sidebar {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .col-sm-main {
+    flex: 0 0 auto;
+    width: 80%;
+  }
   .col-sm-1 {
     flex: 0 0 auto;
     width: 8.3333333333%;
@@ -527,7 +541,22 @@
     flex: 0 0 auto;
     width: auto;
   }
-
+  .col-md-sidebar {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .col-md-main {
+    flex: 0 0 auto;
+    width: 80%;
+  }
+  .col-md-left {
+    flex: 0 0 auto;
+    width: 70%;
+  }
+  .col-md-right {
+    flex: 0 0 auto;
+    width: 30%;
+  }
   .col-md-1 {
     flex: 0 0 auto;
     width: 8.3333333333%;
@@ -740,7 +769,14 @@
     flex: 0 0 auto;
     width: auto;
   }
-
+  .col-lg-sidebar {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .col-lg-main {
+    flex: 0 0 auto;
+    width: 80%;
+  }
   .col-lg-1 {
     flex: 0 0 auto;
     width: 8.3333333333%;
@@ -953,7 +989,14 @@
     flex: 0 0 auto;
     width: auto;
   }
-
+  .col-xl-sidebar {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .col-xl-main {
+    flex: 0 0 auto;
+    width: 80%;
+  }
   .col-xl-1 {
     flex: 0 0 auto;
     width: 8.3333333333%;
