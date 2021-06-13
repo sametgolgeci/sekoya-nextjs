@@ -2,7 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  /*font-family: "Futura Medium", "Futura", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
   width: 100vw;
   max-width: 100vw;
   height: 100vh;
@@ -10,7 +9,7 @@ body {
   font-family: futura, sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-stretch: normal;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
  }
 a {
   color: inherit;
