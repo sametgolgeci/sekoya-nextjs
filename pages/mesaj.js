@@ -18,7 +18,7 @@ export default function Home() {
         <div className="col-md-12 col-sm-12 col-xs-12 mesaj">
           <img className="sidebar-logo-img" src="sekoya-logo.png" alt="sekoya-logo"/>
           <h1>Mesajınız İletilmiştir</h1>
-          <Link href="/">Buradan anasayfaya dönüş yapabilirsiniz.</Link>
+          <a href="/">Buradan anasayfaya dönüş yapabilirsiniz.</a>
         </div>
       </main>
     </div>
