@@ -18,7 +18,8 @@ export default function Home() {
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
           <div className="sidebar-logo">
             <Link href="/"><a>
-              <img className="sidebar-logo-img" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-1" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-2" src="sekoya-logo-2.png" alt="sekoya-logo"/>
             </a></Link>
           </div>
           <div className="sidebar-items">
@@ -52,9 +53,9 @@ export default function Home() {
         <div className="col-md-main col-sm-12 col-xs-12 hakkimizda">
           <h1>Hakkımızda</h1>
           <div className="hakkimizda-inline"></div>
-          <h2>SEKOYA, farklı disiplinlerde eğitim almış<br/>ve alanında uzman kişilerin bir araya gelmesi ile<br/>ortaya çıkmış; ahşap işçiliğini, özgür tasarım<br/>ve kurumsal süreç yönetimi ile birleştirmeyi hedefleyen<br/>yenilikçi bir ahşap tasarım atölyesidir.</h2>
+          <h2>SEKOYA, farklı disiplinlerde eğitim almış<br/>ve alanında uzman kişilerin bir araya gelmesi ile<br/>ortaya çıkmıştır. Ahşap işçiliğini, özgün tasarım<br/>ve kurumsal süreç yönetimi ile birleştirmeyi hedefleyen<br/>yenilikçi bir ahşap tasarım atölyesidir.</h2>
           <h3>Ekibimiz, tasarım ve üretim süreçlerinde uzun yıllar tecrübe edinmiş ve kendini ispatlamış insanların yanı sıra, tüm bu süreçleri profesyonel ve şeffaf bir yönetim anlayışı ile, güvenilir ve kaliteli bir hizmete dönüştürmeyi amaçlayan dinamik üyelerden oluşmaktadır.</h3>
-          <h3>Firmamız, iş ortaklarımıza hizmeti alım sürecinin her aşamasında uzmanlık sağlayarak; yaşanan aksaklıkları, iletişim problemlerini ve şeffaf olmayan süreç yönetimi sonucu ortaya çıkan mağduriyetleri ortadan kaldırarak, memnuniyeti en üst seviyeye çıkarmayı hedeflemektedir.</h3>
+          <h3>Firmamız, iş ortaklarımıza hizmeti alım sürecinin her aşamasında uzmanlık sağlayarak, memnuniyeti en üst seviyeye çıkarmayı hedeflemektedir.</h3>
         </div>
       </main>
     </div>

@@ -18,7 +18,8 @@ export default function Ekip() {
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
           <div className="sidebar-logo">
             <Link href="/"><a>
-              <img className="sidebar-logo-img" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-1" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-2" src="sekoya-logo-2.png" alt="sekoya-logo"/>
             </a></Link>
           </div>
           <div className="sidebar-items">
@@ -55,7 +56,7 @@ export default function Ekip() {
             <div className="ekip-items">
               <div className="ekip-item">
                 <div className="col-md-2 ekip-item-img">
-                  <img src="sekoya-home-1.jpg" alt="sekoya-profil"/>
+                  <img src="ekip/yasin_web.jpg" alt="sekoya-profil"/>
                 </div>
                 <div className="col-md-8 ekip-item-text">
                   <h2>Kadir Yasin Karali, <span>Mimar</span></h2>
@@ -64,38 +65,38 @@ export default function Ekip() {
               </div>
               <div className="ekip-item-negative">
                 <div className="col-md-2 ekip-item-img">
-                  <img src="sekoya-bg-2.jpg" alt="sekoya-profil"/>
+                  <img src="ekip/ayse_web.jpg" alt="sekoya-profil"/>
                 </div>
                 <div className="col-md-8 ekip-item-text">
-                  <h2>Kadir Yasin Karali, <span>Mimar</span></h2>
-                  <h3>İstanbul Teknik Üniversitesi Mimarlık bölümünden 2007 yılında mezun oldu. O günden beri çeşitli projelendirme ve uygulama süreçlerinde görev yapmaktadır. Okul yıllarından beri süregelen ağaç ve ahşaba olan ilgisi; tecrübeli ve profesyonel bir tasarım, üretim ve işletme ekibiyle birleşerek  “Sekoya” adıyla devam etmektedir.</h3>
+                  <h2>Ayşe Özdemir, <span>Mimar</span></h2>
+                  <h3>Eskişehir Osmangazi Üniversitesi Mimarlık bölümünden mezun oldum. Çeşitli tasarım ve uygulama ofislerinde çalışma imkanı buldum. Eğitim ve çalışma hayatımda kazandığım tecrübeleri  Sekoya  bünyesinde devam ettirmekteyim.</h3>
                 </div>
               </div>
               <div className="ekip-item">
                 <div className="col-md-2 ekip-item-img">
-                  <img src="sekoya-bg-3.jpg" alt="sekoya-profil"/>
+                  <img src="ekip/hasan_web.jpg" alt="sekoya-profil"/>
                 </div>
                 <div className="col-md-8 ekip-item-text">
-                  <h2>Kadir Yasin Karali, <span>Mimar</span></h2>
-                  <h3>İstanbul Teknik Üniversitesi Mimarlık bölümünden 2007 yılında mezun oldu. O günden beri çeşitli projelendirme ve uygulama süreçlerinde görev yapmaktadır. Okul yıllarından beri süregelen ağaç ve ahşaba olan ilgisi; tecrübeli ve profesyonel bir tasarım, üretim ve işletme ekibiyle birleşerek  “Sekoya” adıyla devam etmektedir.</h3>
+                  <h2>Hasan Tahsin Karali, <span>İşletmeci</span></h2>
+                  <h3>Boğaziçi Üniversitesi Turizm İşletmeciliğinden mezun olduktan sonra yüksek lisans eğitimimi İstanbul Teknik Üniversitesi Bölge Planlama programında tamamladım. Akademik projelerde ve özel sektörde farklı disiplinlerden insanlarla bir arada çalışma fırsatı buldum. İş hayatıma, kurumsal işletme yönetimi anlayışı ile Sekoya’ya katkı sağlayarak devam ediyorum.</h3>
                 </div>
               </div>
               <div className="ekip-item-negative">
                 <div className="col-md-2 ekip-item-img">
-                  <img src="sekoya-bg-4.jpg" alt="sekoya-profil"/>
+                  <img src="ekip/oyku_web.jpg" alt="sekoya-profil"/>
                 </div>
                 <div className="col-md-8 ekip-item-text">
-                  <h2>Kadir Yasin Karali, <span>Mimar</span></h2>
-                  <h3>İstanbul Teknik Üniversitesi Mimarlık bölümünden 2007 yılında mezun oldu. O günden beri çeşitli projelendirme ve uygulama süreçlerinde görev yapmaktadır. Okul yıllarından beri süregelen ağaç ve ahşaba olan ilgisi; tecrübeli ve profesyonel bir tasarım, üretim ve işletme ekibiyle birleşerek  “Sekoya” adıyla devam etmektedir.</h3>
+                  <h2>Öykü Öztürk, <span>İşletmeci</span></h2>
+                  <h3>Lisans ve lisansüstü eğitimimi Boğaziçi Üniversitesi’nde tamamladıktan sonra çeşitli uluslararası firmaların kurumsal satış ve kurumsal iletişim departmanlarında çalıştım. Sekoya bünyesinde işletmeci kimliğimin yanı sıra, iş ortaklarımıza çevresel olarak duyarlı ve doğa dostu bir hizmet anlayışı konusunda katkı sağlamayı hedefliyorum.</h3>
                 </div>
               </div>
               <div className="ekip-item">
                 <div className="col-md-2 ekip-item-img">
-                  <img src="sekoya-bg-5.jpg" alt="sekoya-profil"/>
+                  <img src="ekip/serafettin_web.jpg" alt="sekoya-profil"/>
                 </div>
                 <div className="col-md-8 ekip-item-text">
-                  <h2>Kadir Yasin Karali, <span>Mimar</span></h2>
-                  <h3>İstanbul Teknik Üniversitesi Mimarlık bölümünden 2007 yılında mezun oldu. O günden beri çeşitli projelendirme ve uygulama süreçlerinde görev yapmaktadır. Okul yıllarından beri süregelen ağaç ve ahşaba olan ilgisi; tecrübeli ve profesyonel bir tasarım, üretim ve işletme ekibiyle birleşerek  “Sekoya” adıyla devam etmektedir.</h3>
+                  <h2>Şerafettin Çetiner, <span>Ahşap Ustası</span></h2>
+                  <h3>1976 yılında Adapazarı’nda başladığım mesleğime, 1999 yılından beri İstanbul’da devam etmekteyim. 40 yılı aşkın süredir yapmakta olduğum ahşap ustalığı süresince çeşitli ahşap atölyelerinde çalıştım. Sekoya üretim atölyesinin sorumlusu olarak ürün kalitemizi en üst düzeyde tutmayı amaçlıyorum.</h3>
                 </div>
               </div>
             </div>

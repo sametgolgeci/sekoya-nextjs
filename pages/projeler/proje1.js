@@ -53,29 +53,31 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-left col-sm-12 col-xs-12">
-                <h1>Proje#1</h1>
-                <a href="/../sekoya-bg-2.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-2.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-3.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-3.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-4.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-4.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-5.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-5.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-2.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-2.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-3.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-3.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-4.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-4.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-5.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-5.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-2.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-2.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-3.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-3.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-4.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-4.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-5.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-5.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-2.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-2.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-3.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-3.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-4.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-4.jpg" alt=""/></a>
-                <a href="/../sekoya-bg-5.jpg" target="_blank"><img className="proje-img" src="../sekoya-bg-5.jpg" alt=""/></a>
+                <h1>Beyaz Işık Diş Polikliniği</h1>
+                <div className="proje-list">
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_02_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_02_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_03_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_03_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_04_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_04_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_05_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_05_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_06_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_06_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_07_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_07_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_08_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_08_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_09_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_09_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_10_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_10_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_11_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_11_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_12_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_12_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_13_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_13_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_14_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_14_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_15_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_15_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_16_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_16_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_17_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_17_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                </div>
               </div>
               <div className="col-md-right col-sm-12 col-xs-12 proje-right">
                 <div className="proje-text">
                   <p><strong>AÇIKLAMA,Künye</strong></p>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae hic laudantium fugiat alias assumenda quaerat consequatur expedita quidem ab consequuntur quis quo dolorem delectus, quia totam commodi impedit eum at.</p>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae hic laudantium fugiat alias assumenda quaerat consequatur expedita quidem ab consequuntur quis quo dolorem delectus, quia totam commodi impedit eum at.</p>
+                  <p>Mecidiyeköy’de 2 kat ve 7 muayene odasından oluşan diş polikliniğindeki bekleme alanlarındaki duvar panelleri, banko ve banko arkası ahşap paneller, kafe bölümündeki dolap, bar masası ve niş içlerindeki ahşap rafların üretimi tamamlanmıştır. Ayrıca klinik odalarındaki tezgah altı dolapları, aynalar ve hekim masaları, klima arkasındaki lambiri panellerin üretimi yapılmıştır. Lobide bulunan dekoratif ahşap dikmeler duvarda, tavanda ve tavandaki lineer aydınlatmanın iç kısmında uygulanmıştır.</p>
                 </div>
               </div>
             </div>

@@ -18,7 +18,8 @@ export default function Home() {
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
           <div className="sidebar-logo">
             <Link href="/"><a>
-              <img className="sidebar-logo-img" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-1" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-2" src="sekoya-logo-2.png" alt="sekoya-logo"/>
             </a></Link>
           </div>
           <div className="sidebar-items">
@@ -52,23 +53,16 @@ export default function Home() {
         <div className="col-md-main col-sm-12 col-xs-12 iletisim">
           <div className="col-md-5 col-sm-12 col-xs-12 iletisim-right">
             <div className="iletisim-right-div">
-              <iframe className="iletisim-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7671.258231642686!2d28.97465566913612!3d41.008138848321956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9be92011c27%3A0x236e6f6f37444fae!2sAyasofya%20Camii!5e0!3m2!1str!2str!4v1618488107649!5m2!1str!2str" width="100%" height="100%"  allowfullscreen="" loading="lazy"/>
+              <iframe className="iletisim-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5225.783918571083!2d28.92894901049808!3d41.03816124278168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba0cc94ab6e7%3A0x31480b82223c5a08!2sFlatofis%20Hali%C3%A7!5e0!3m2!1str!2str!4v1623870015740!5m2!1str!2str" width="100%" height="100%" allowfullscreen="" loading="lazy"/>
             </div>
           </div>
           <div className="col-md-7 col-sm-12 col-xs-12 iletisim-left">
             <h1>İletişim</h1>
             <div className="iletisim-info">
-              <h2>info@sekoyaahsaptasarım.com</h2>
-              <h2>(5**) *** ** **</h2>
-              <h2>Kağıthane, İstanbul</h2>
+              <h2>info@sekoyaahsap.com</h2>
+              <h2>(532) 707 68 16</h2>
+              <h2>Flatofis Haliç Defterdar Mh. Otlakçılar Cd. No:78 Kat:4 İç Kapı No: 94 Eyüpsultan</h2>
             </div>
-            {/*
-            <div className="iletisim-info">
-              <p>info@sekoyaahsaptasarım.com</p>
-              <p>(5**) *** ** **</p>
-              <p>Kağıthane, İstanbul</p>
-            </div>
-            */}
             <div className="iletisim-mail">
               <div className="iletisim-form">
                 <form class="row" action="/mesaj">

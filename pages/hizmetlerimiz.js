@@ -18,7 +18,8 @@ export default function Home() {
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
           <div className="sidebar-logo">
             <Link href="/"><a>
-              <img className="sidebar-logo-img" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-1" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-2" src="sekoya-logo-2.png" alt="sekoya-logo"/>
             </a></Link>
           </div>
           <div className="sidebar-items">
@@ -52,18 +53,35 @@ export default function Home() {
         <div className="col-md-main col-sm-12 col-xs-12 hizmet">
           <div className="hizmet-texts">
             <div className="hizmet-text text-1">
-              <h1>Özel Tasarım Mobilya</h1>
-              <h2>Mutfak, banyo dolapları, gardroplar, portmantolar, giysi & eşya dolapları, şifonyerler, konsüller, komodinler, dresuarlar, kitaplıklar, açık raf üniteleri, koltuk sandalye kanepe benzeri hareketli mobilyaların tasarımı, projelendirilmesi ve üretilmesi.</h2>
+              <h1>Özel Üretim Mobilya</h1>
+              <h2>Özel tasarım dekorlar, sabit veya hareketli mobilyalar kullanıcı tarafından belirlenerek ya da mimarlarımız tarafından tasarlanarak  atölyemizde üretilmekte ve yerlerine montajı yapılmaktadır.</h2>
             </div>
             <div className="hizmet-text text-2">
               <h1>Mimari Tasarım ve Uygulama</h1>
-              <h2>Konut, ofis, dükkan, sağlık tesisleri, otel, restoran & kafe, konferans salonu, okul vb mekanlarda iç mekan ahşap duvar, tavan kaplamaları, ahşap giydirmeler, ahşap özel tasarım strüktürel ürünlerin veya yapıların projelendirilmesi ve üretilmesi.</h2>
+              <h2>Oteller, restoranlar, sağlık tesisleri ve konutlar gibi ahşabın girdiği tüm mekânlardaki sabit veya hareketli ahşap ürünler tasarlanmakta, detay çözümleri yapılmakta, modellemesi ve görselleştirmesi tamamlanarak uygulama aşamasına geçilmektedir.</h2>
             </div>
             <div className="hizmet-text text-3">
               <h1>Hediyelik Eşya ve Aksesuar</h1>
-              <h2>Kişilere ve kurumlara özel hediyelik eşyaların ya da özel kullanıma yönelik ürünlerin yanı sıra çeşitli ahşap süs eşyalarının tasarlanması ve imal edilmesi.</h2>
+              <h2>Tasarımını birlikte gerçekleştirdiğimiz hediyelik eşyaları, kişisel ürünleri, süs eşyalarını ve ahşap oyuncakları sizler için atölyemizde üretilmektedir.</h2>
             </div>
             <div className="hizmet-img"></div>
+          </div>
+          <div className="hizmet-mobil-texts">
+            <div className="hizmet-mobil-text">
+              <img className="hizmet-mobil-img" src="/sekoya-hizmet-1.jpg" alt="hizmet-1"/>
+              <h1>Özel Üretim Mobilya</h1>
+              <h2>Özel tasarım dekorlar, sabit veya hareketli mobilyalar kullanıcı tarafından belirlenerek ya da mimarlarımız tarafından tasarlanarak  atölyemizde üretilmekte ve yerlerine montajı yapılmaktadır.</h2>
+            </div>
+            <div className="hizmet-mobil-text">
+              <img className="hizmet-mobil-img" src="/sekoya-hizmet-2.jpg" alt="hizmet-2"/>
+              <h1>Mimari Tasarım ve Uygulama</h1>
+              <h2>Oteller, restoranlar, sağlık tesisleri ve konutlar gibi ahşabın girdiği tüm mekânlardaki sabit veya hareketli ahşap ürünler tasarlanmakta, detay çözümleri yapılmakta, modellemesi ve görselleştirmesi tamamlanarak uygulama aşamasına geçilmektedir.</h2>
+            </div>
+            <div className="hizmet-mobil-text">
+              <img className="hizmet-mobil-img" src="/sekoya-hizmet-3.jpg" alt="hizmet-3"/>
+              <h1>Hediyelik Eşya ve Aksesuar</h1>
+              <h2>Tasarımını birlikte gerçekleştirdiğimiz hediyelik eşyaları, kişisel ürünleri, süs eşyalarını ve ahşap oyuncakları sizler için atölyemizde üretilmektedir.</h2>
+            </div>
           </div>
         </div>
       </main>

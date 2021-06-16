@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram,faLinkedinIn,faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { faBars,faStream,faPeopleArrows,faDraftingCompass,faDesktop,faHammer,faTruck,faThumbsUp  } from '@fortawesome/free-solid-svg-icons'
+import { faBars,faStream,faPeopleArrows,faDraftingCompass,faDesktop,faHammer,faTruck,faThumbsUp,faHandshake  } from '@fortawesome/free-solid-svg-icons'
 
 export default function Nasil() {
   return (
@@ -18,7 +18,8 @@ export default function Nasil() {
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
           <div className="sidebar-logo">
             <Link href="/"><a>
-              <img className="sidebar-logo-img" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-1" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-2" src="sekoya-logo-2.png" alt="sekoya-logo"/>
             </a></Link>
           </div>
           <div className="sidebar-items">
@@ -86,7 +87,7 @@ export default function Nasil() {
                   <h3>Hazırlanan son ürünler kararlaştırılan süre içerisinde tamamlanıp kullanıcıya ulaştırılır ve yerinde montajları yapılır.</h3>
                 </div>
                 <div className="nasil-item">
-                  <FontAwesomeIcon className="nasil-social-item" icon={faThumbsUp}/>
+                  <FontAwesomeIcon className="nasil-social-item" icon={faHandshake}/>
                   <h2>Memnuniyet</h2>
                   <h3>Teslim edilen ürünlerde dayanıklılık, işlevsellik ve estetik olarak en doğru sonuca ulaşmış olmak ve kullanıcı tarafından olumlu geri dönüş almak birincil önceliğimizdir.</h3>
                 </div>

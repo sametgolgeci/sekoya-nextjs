@@ -111,10 +111,17 @@ main {
   text-align: center;
   z-index: 1;
 }
+.sidebar-logo-1 {
+  display: none;
+}
+.sidebar-logo-2 {
+  display: block;
+}
 .sidebar-logo-img {
   width: 100%;
   height: auto;
   max-width: 50%;
+  margin: 0 auto;
 }
 .sidebar-items {
   font-weight: 500;
@@ -187,9 +194,15 @@ main {
     text-align: center;
     z-index: 1;
   }
+  .sidebar-logo-1 {
+    display: block;
+  }
+  .sidebar-logo-2 {
+    display: none;
+  }
   .sidebar-logo-img {
     width: 60%;
-    margin: 0 20%;
+    margin: 0 auto;
     margin-top: 1rem;
     height: auto;
     max-width: 1000px;
@@ -304,7 +317,7 @@ main {
 /* Hakkımızda */
 
 .hakkimizda {
-  padding: 0 0.5rem;
+  padding: 0 1.5rem;
   z-index: 10;
   background-color: white;
   border-left: 1px solid rgba(0, 0, 0, .1);
@@ -373,7 +386,7 @@ main {
 /* Ekip */
 
 .ekip {
-  padding: 0 0.5rem;
+  padding: 0 1.5rem;
   z-index: 10;
   background-color: white;
   border-left: 0px solid rgba(0, 0, 0, .1);
@@ -396,7 +409,7 @@ main {
   flex-direction: row;
 }
 .ekip-item-text {
-  padding: 0 1rem;
+  padding: 0;
 }
 .ekip-item-negative {
   display: flex;
@@ -521,20 +534,20 @@ main {
   transition: 0.7s;
 }
 .nasil-items {
-  padding: 12vh 0 4vh;
+  padding: 8vh 0;
 }
 .nasil-item {
   width: 100%;
-  height: 28vh;
-  color: #515354;
-  padding: 0 1rem;
+  height: auto;
+  color: #616364;
+  padding: 1rem;
   transition: 0.7s;
 }
 .nasil-item:hover {
   width: 100%;
-  height: 28vh;
+  height: auto;
   color: white;
-  padding: 0 1rem;
+  padding: 1rem;
   transition: 0.7s;
 }
 .nasil-social-item {
@@ -650,16 +663,16 @@ main {
   font-family: futura, sans-serif;
   font-weight: 600;
   font-stretch: normal;
-  font-size: 36px;
+  font-size: 24px;
 }
 .hizmet h2 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 .hizmet-texts {
   width: 100%;
   height: 100vh;
-  display: flex;
+  display: none;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
@@ -742,6 +755,125 @@ main {
 .hizmet-text:hover:nth-child(n) {
   transition: 0.7s;
 }
+.hizmet-mobil-texts {
+  display: block;
+  padding: 1.5rem;
+}
+.hizmet-mobil-img {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .hizmet {
+    padding: 0;
+    z-index: 10;
+    color: black;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+  }
+  .hizmet h1 {
+    font-family: futura, sans-serif;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 36px;
+  }
+  .hizmet h2 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .hizmet-texts {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .hizmet-text {
+    height: 33.3%;
+    width: 80%;
+    max-width: 80%;
+    padding: 0 10%;
+    text-align: left;
+    position: absolute;
+    z-index: 2;
+    transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    opacity: 0.4;
+  }
+  .hizmet-text h1 {
+    transform: translateY(10px);
+    transition: 0.7s;
+  }
+  .hizmet-text h2 {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: 0.7s;
+  }
+  .text-1 {
+    top:0;
+    justify-content: flex-end;
+    transition: 0.7s;
+  }
+  .text-2 {
+    top:33.3%;
+    justify-content: center;
+    transition: 0.7s;
+  }
+  .text-3 {
+    top:66.6%;
+    justify-content: flex-start;
+    transition: 0.7s;
+  }
+  .hizmet-img {
+    position: absolute;
+    z-index: 1;
+    background-image: url(/sekoya-hizmet-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 100vh;
+    transition: 0.7s;
+  }
+  .text-1:hover ~ .hizmet-img {
+    background-image: url(/sekoya-hizmet-1.jpg);
+    transition: 0.7s;
+  }
+  .text-2:hover ~ .hizmet-img {
+    background-image: url(/sekoya-hizmet-2.jpg);
+    transition: 0.7s;
+  }
+  .text-3:hover ~ .hizmet-img {
+    background-image: url(/sekoya-hizmet-3.jpg);
+    transition: 0.7s;
+  }
+  .hizmet-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+  }
+  .hizmet-text:hover h1 {
+    transform: translateY(0px);
+    transition: 0.7s;
+  }
+  .hizmet-text:hover h2 {
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: 0.7s;
+  }
+  .hizmet-text:hover:nth-child(n) {
+    transition: 0.7s;
+  }
+  .hizmet-mobil-texts {
+    display: none;
+  }
+}
 
 @media (min-width: 1400px) {
   .hizmet h1 {
@@ -801,10 +933,22 @@ main {
   color: #dac8b9;
   font-size: 50px; 
 }
+.proje-list {
+  line-height: 0;       
+    -webkit-column-count: 3;    
+    -webkit-column-gap: 0px;    
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+     column-count: 3;    
+     column-gap: 0px;
+     display:inline-block;    
+   margin-right: auto;    
+   margin-left: auto;
+}
 .proje-img {
-  width: 33.3%;
-  height: auto;
-  padding: 0 0.25rem 0.25rem;
+  width: 100% !important;    
+  height: auto !important;
+  padding: 0.25rem;
 }
 .proje-right {
   padding: 6rem;
@@ -981,7 +1125,6 @@ main {
 .mesaj img {
   max-width: 300px;
 }
-
 
 
 

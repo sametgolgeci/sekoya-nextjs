@@ -19,7 +19,8 @@ export default function Home() {
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
           <div className="sidebar-logo">
             <Link href="/"><a>
-              <img className="sidebar-logo-img" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-1" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-2" src="sekoya-logo-2.png" alt="sekoya-logo"/>
             </a></Link>
           </div>
           <div className="sidebar-items">
@@ -103,7 +104,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-4">
                 <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="sekoya-home-1.jpg" alt=""/>
+                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt=""/>
                   <div className="">
                     <h5>#Proje 1</h5>
                   </div>
@@ -111,7 +112,7 @@ export default function Home() {
               </div>
               <div className="col-md-4">
                 <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="sekoya-bg-2.jpg" alt=""/>
+                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt=""/>
                   <div className="">
                     <h5>#Proje 2</h5>
                   </div>
@@ -119,7 +120,7 @@ export default function Home() {
               </div>
               <div className="col-md-4">
                 <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="sekoya-bg-3.jpg" alt=""/>
+                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_03_web.jpg" alt=""/>
                   <div className="">
                     <h5>#Proje 3</h5>
                   </div>
@@ -127,7 +128,7 @@ export default function Home() {
               </div>
               <div className="col-md-4">
                 <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="sekoya-bg-4.jpg" alt=""/>
+                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_04_web.jpg" alt=""/>
                   <div className="">
                     <h5>#Proje 4</h5>
                   </div>
@@ -135,7 +136,7 @@ export default function Home() {
               </div>
               <div className="col-md-4">
                 <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="sekoya-bg-5.jpg" alt=""/>
+                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_05_web.jpg" alt=""/>
                   <div className="">
                     <h5>#Proje 5</h5>
                   </div>

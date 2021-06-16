@@ -18,7 +18,8 @@ export default function Home() {
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
           <div className="sidebar-logo">
             <Link href="/"><a>
-              <img className="sidebar-logo-img" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-1" src="sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-2" src="sekoya-logo-2.png" alt="sekoya-logo"/>
             </a></Link>
           </div>
           <div className="sidebar-items">
@@ -55,8 +56,8 @@ export default function Home() {
           </div>
           <div className="col-md-6 col-sm-12 col-xs-12 index-text">
             <div className="index-texts">
-              <h6>Lorem Ipsum</h6>
-              <h1>Lorem ipsum dolar sit amet,<br/> deneme alt sim gum</h1>
+              <h6></h6>
+              <h1>Özgün tasarımın ahşap hali<br/></h1>
               <h4>Sekoya Ahşap Tasarım Atölyesi</h4>
             </div>
           </div>
