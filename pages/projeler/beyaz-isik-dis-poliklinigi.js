@@ -11,14 +11,15 @@ export default function Home() {
         <meta charset="utf-8"/>
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <title>Sekoya | Proje 1</title>
+        <title>Sekoya | Beyaz Işık Diş Polikliniği</title>
         <link rel="icon" href="/favicon64.png"/>
       </Head>
       <main>
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
           <div className="sidebar-logo">
             <Link href="/"><a>
-             <img className="sidebar-logo-img" src="../sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-1" src="../sekoya-logo.png" alt="sekoya-logo"/>
+              <img className="sidebar-logo-img sidebar-logo-2" src="../sekoya-logo-2.png" alt="sekoya-logo"/>
             </a></Link>
           </div>
           <div className="sidebar-items">
@@ -44,16 +45,16 @@ export default function Home() {
             </ul> 
           </div>
           <div className="sidebar-social">
-            <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
-            <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
-            <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
+            <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
           </div>
         </div>
         <div className="col-md-main col-sm-12 col-xs-12 proje">
+        <h1>Beyaz Işık Diş Polikliniği</h1>
           <div className="container">
             <div className="row">
               <div className="col-md-left col-sm-12 col-xs-12">
-                <h1>Beyaz Işık Diş Polikliniği</h1>
                 <div className="proje-list">
                   <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
                   <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_02_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_02_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>

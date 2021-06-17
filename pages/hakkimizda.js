@@ -45,15 +45,15 @@ export default function Home() {
             </ul> 
           </div>
           <div className="sidebar-social">
-            <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
-            <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
-            <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
+            <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
           </div>
         </div>
         <div className="col-md-main col-sm-12 col-xs-12 hakkimizda">
           <h1>Hakkımızda</h1>
-          <div className="hakkimizda-inline"></div>
-          <h2>SEKOYA, farklı disiplinlerde eğitim almış<br/>ve alanında uzman kişilerin bir araya gelmesi ile<br/>ortaya çıkmıştır. Ahşap işçiliğini, özgün tasarım<br/>ve kurumsal süreç yönetimi ile birleştirmeyi hedefleyen<br/>yenilikçi bir ahşap tasarım atölyesidir.</h2>
+          <h2 className="hakkimizda-web">SEKOYA, farklı disiplinlerde eğitim almış<br/>ve alanında uzman kişilerin bir araya gelmesi ile<br/>ortaya çıkmıştır. Ahşap işçiliğini, özgün tasarım<br/>ve kurumsal süreç yönetimi ile birleştirmeyi hedefleyen<br/>yenilikçi bir ahşap tasarım atölyesidir.</h2>
+          <h2 className="hakkimizda-mobil">SEKOYA, farklı disiplinlerde eğitim almış ve alanında uzman kişilerin bir araya gelmesi ile ortaya çıkmıştır. Ahşap işçiliğini, özgün tasarım ve kurumsal süreç yönetimi ile birleştirmeyi hedefleyen yenilikçi bir ahşap tasarım atölyesidir.</h2>
           <h3>Ekibimiz, tasarım ve üretim süreçlerinde uzun yıllar tecrübe edinmiş ve kendini ispatlamış insanların yanı sıra, tüm bu süreçleri profesyonel ve şeffaf bir yönetim anlayışı ile, güvenilir ve kaliteli bir hizmete dönüştürmeyi amaçlayan dinamik üyelerden oluşmaktadır.</h3>
           <h3>Firmamız, iş ortaklarımıza hizmeti alım sürecinin her aşamasında uzmanlık sağlayarak, memnuniyeti en üst seviyeye çıkarmayı hedeflemektedir.</h3>
         </div>

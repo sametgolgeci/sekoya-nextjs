@@ -13,7 +13,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <title>Sekoya | Projelerimiz</title>
         <link rel="icon" href="/favicon64.png"/>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
       </Head>
       <main>
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
@@ -46,9 +45,9 @@ export default function Home() {
             </ul> 
           </div>
           <div className="sidebar-social">
-            <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
-            <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
-            <div className="sidebar-social-item"><a href="#"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
+            <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
           </div>
         </div>
         <div className="col-md-main col-sm-12 col-xs-12 uygulama">
@@ -103,10 +102,10 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-4">
-                <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt=""/>
+                <Link href="/projeler/beyaz-isik-dis-poliklinigi"><a href="">
+                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt="Beyaz Işık Diş Polikliniği"/>
                   <div className="">
-                    <h5>#Proje 1</h5>
+                    <h5>Beyaz Işık Diş Polikliniği</h5>
                   </div>
                 </a></Link>
               </div>

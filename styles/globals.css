@@ -322,6 +322,12 @@ main {
   background-color: white;
   border-left: 1px solid rgba(0, 0, 0, .1);
 }
+.hakkimizda-web {
+  display: none;
+}
+.hakkimizda-mobil {
+  display: block;
+}
 .hakkimizda h1 {
   color: #dac8b9;
   margin: 4rem 0;
@@ -343,6 +349,12 @@ main {
     z-index: 10;
     background-color: white;
     border-left: 1px solid rgba(0, 0, 0, .1);
+  }
+  .hakkimizda-web {
+    display: block;
+  }
+  .hakkimizda-mobil {
+    display: none;
   }
   .hakkimizda h1 {
     color: #dac8b9;
@@ -665,6 +677,16 @@ main {
   font-stretch: normal;
   font-size: 24px;
 }
+.hizmet-mobil-texts h1:first-child {
+  font-family: "Futura-CondensedMedium", futura , sans-serif;
+  font-stretch: condensed;
+  font-style: normal;
+  font-weight: 500;
+  margin: 3rem 0;
+  padding: 0;
+  color: #dac8b9;
+  font-size: 50px; 
+}
 .hizmet h2 {
   font-size: 14px;
   font-weight: 500;
@@ -890,7 +912,7 @@ main {
 /* Uygulamalarımız */
 
 .uygulama {
-  padding: 0.5rem 110px;
+  padding: 0.5rem 1.5rem;
   z-index: 10;
   background-color: white;
   border-left: 1px solid rgba(0, 0, 0, .1);
@@ -903,6 +925,24 @@ main {
 .uygulama-img {
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 768px){
+  .uygulama {
+    padding: 0.5rem 110px;
+    z-index: 10;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+  }
+  .uygulama h1 {
+    margin: 4rem 0;
+    color: #dac8b9;
+    font-size: 50px; 
+  }
+  .uygulama-img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (min-width: 1400px){
@@ -929,17 +969,17 @@ main {
 }
 .proje h1 {
   margin-bottom: 3rem;
-  padding-left: 98px;
+  padding: 0 1.5rem;
   color: #dac8b9;
   font-size: 50px; 
 }
 .proje-list {
   line-height: 0;       
-    -webkit-column-count: 3;    
+    -webkit-column-count: 2;    
     -webkit-column-gap: 0px;    
-    -moz-column-count: 3;
+    -moz-column-count: 2;
     -moz-column-gap: 0px;
-     column-count: 3;    
+     column-count: 2;    
      column-gap: 0px;
      display:inline-block;    
    margin-right: auto;    
@@ -951,7 +991,7 @@ main {
   padding: 0.25rem;
 }
 .proje-right {
-  padding: 6rem;
+  padding: 0;
 }
 .proje-text {
   position: sticky;
@@ -961,7 +1001,42 @@ main {
   padding-right: 1rem;
 }
 
-@media (min-width: 1400px){
+@media (min-width: 768px){
+  .proje {
+    padding: 3.5rem 0 0;
+    z-index: 10;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    font-weight: 400;
+  }
+  .proje h1 {
+    margin-bottom: 3rem;
+    padding: 0 110px;
+    color: #dac8b9; 
+    font-size: 50px;
+  }
+  .proje-list {
+    line-height: 0;       
+      -webkit-column-count: 3;    
+      -webkit-column-gap: 0px;    
+      -moz-column-count: 3;
+      -moz-column-gap: 0px;
+       column-count: 3;    
+       column-gap: 0px;
+       display:inline-block;    
+     margin-right: auto;    
+     margin-left: auto;
+  }
+  .proje-text {
+    position: sticky;
+    font-weight: 500;
+    font-size: 14px;
+    top: 3rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
   .proje {
     padding: 4rem 0 0;
     z-index: 10;
@@ -971,14 +1046,14 @@ main {
   }
   .proje h1 {
     margin-bottom: 3rem;
-    padding-left: 98px;
+    padding: 0 110px;
     color: #dac8b9; 
     font-size: 64px;
   }
   .proje-text {
     position: sticky;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     top: 3rem;
     padding-right: 1rem;
   }
@@ -988,11 +1063,18 @@ main {
 
 .iletisim {
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
   z-index: 10;
   background-color: white;
-  border-left: 1px solid rgba(0, 0, 0, .1);
+  border-left: 0px solid rgba(0, 0, 0, .1);
+}
+.iletisim-mobil {
+  display: block;
+  margin: 4rem 0 0;
+}
+.iletisim-web {
+  display: none;
 }
 .iletisim h1 {
   color: #dac8b9;
@@ -1003,15 +1085,16 @@ main {
 .iletisim h2 {
   font-family: futura, sans-serif;
   font-stretch: normal;
+  font-weight: 500;
   font-size: 14px;
   color: #6a6a6a;
   line-height: 1.8;
   margin: 0;
   padding: 0;
 }
-.iletisim h2:nth-child(1) {
+.iletisim h2:nth-child(2) {
   color: #9f6e47;
-  font-size: 16px;
+  font-size: 14px;
 }
 .iletisim p {
   font-family: futura, sans-serif;
@@ -1029,22 +1112,17 @@ main {
 }
 .iletisim-right-div {
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 .iletisim-frame {
   border: 0;
 }
 .iletisim-left {
-  padding: 0 110px;
+  padding: 0 1.5rem;
 }
 .iletisim-info {
   margin-bottom: 2rem;
   border-left: 3px solid #daac87;
-  padding: 1rem;
-}
-.iletisim-info:nth-child(3) {
-  margin-bottom: 2rem;
-  border-left: 3px solid #9f6e47;
   padding: 1rem;
 }
 .iletisim-form {
@@ -1074,6 +1152,31 @@ main {
   cursor: pointer;
   transition: 0.7s;
 }
+
+@media (min-width: 768px) {
+  .iletisim {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    z-index: 10;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+  }
+  .iletisim-mobil {
+    display: none;
+  }
+  .iletisim-web {
+    display: block;
+  }
+  .iletisim-right-div {
+    width: 100%;
+    height: 100vh;
+  }
+  .iletisim-left {
+    padding: 0 110px;
+  }
+}
+
 @media (min-width: 1400px) {
   .iletisim h1 {
     color: #dac8b9;
@@ -1091,7 +1194,7 @@ main {
   }
   .iletisim h2:nth-child(1) {
     color: #9f6e47;
-    font-size: 20px;
+    font-size: 16px;
   }
   .iletisim p {
     font-family: futura, sans-serif;
@@ -1125,10 +1228,3 @@ main {
 .mesaj img {
   max-width: 300px;
 }
-
-
-
-
-
-
-
