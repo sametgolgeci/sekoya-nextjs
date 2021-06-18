@@ -48,8 +48,8 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="sidebar-social-mobil">
-                  <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
-                  <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
+                  <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
+                  <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
                   <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
                 </div> 
               </nav>
@@ -78,8 +78,8 @@ export default function Home() {
             </ul> 
           </div>
           <div className="sidebar-social">
-            <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
-            <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
             <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
           </div>
         </div>
@@ -134,23 +134,23 @@ export default function Home() {
           <h1>Projelerimiz</h1>
           <div className="container">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 uygulama-item">
                 <Link href="/projeler/beyaz-isik-dis-poliklinigi"><a href="">
                   <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt="Beyaz Işık Diş Polikliniği"/>
+                  <div className="">
+                    <h3>Beyaz Işık Diş Polikliniği</h3>
+                  </div>
+                </a></Link>
+              </div>
+              <div className="col-md-4 uygulama-item">
+                <Link href="/projeler/proje1"><a href="">
+                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt=""/>
                   <div className="">
                     <h5>Beyaz Işık Diş Polikliniği</h5>
                   </div>
                 </a></Link>
               </div>
-              <div className="col-md-4">
-                <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt=""/>
-                  <div className="">
-                    <h5>#Proje 2</h5>
-                  </div>
-                </a></Link>
-              </div>
-              <div className="col-md-4">
+              <div className="col-md-4 uygulama-item">
                 <Link href="/projeler/proje1"><a href="">
                   <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_03_web.jpg" alt=""/>
                   <div className="">
@@ -158,7 +158,7 @@ export default function Home() {
                   </div>
                 </a></Link>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 uygulama-item">
                 <Link href="/projeler/proje1"><a href="">
                   <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_04_web.jpg" alt=""/>
                   <div className="">
@@ -166,7 +166,7 @@ export default function Home() {
                   </div>
                 </a></Link>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 uygulama-item">
                 <Link href="/projeler/proje1"><a href="">
                   <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_05_web.jpg" alt=""/>
                   <div className="">

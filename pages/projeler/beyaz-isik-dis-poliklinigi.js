@@ -48,8 +48,8 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="sidebar-social-mobil">
-                  <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
-                  <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
+                  <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
+                  <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
                   <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
                 </div>  
               </nav>
@@ -78,16 +78,21 @@ export default function Home() {
             </ul> 
           </div>
           <div className="sidebar-social">
-            <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
-            <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
             <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
           </div>
         </div>
         <div className="col-md-main col-sm-12 col-xs-12 proje">
         <h1>Beyaz Işık Diş Polikliniği</h1>
           <div className="container">
-            <div className="row">
-              <div className="col-md-left col-sm-12 col-xs-12">
+            <div className="row proje-inline">
+              <div className="col-md-12 col-sm-12 col-xs-12 proje-right">
+                <div className="proje-text">
+                  <p>Mecidiyeköy’de 2 kat ve 7 muayene odasından oluşan diş polikliniğindeki bekleme alanlarındaki duvar panelleri, banko ve banko arkası ahşap paneller, kafe bölümündeki dolap, bar masası ve niş içlerindeki ahşap rafların üretimi tamamlanmıştır. Ayrıca klinik odalarındaki tezgah altı dolapları, aynalar ve hekim masaları, klima arkasındaki lambiri panellerin üretimi yapılmıştır. Lobide bulunan dekoratif ahşap dikmeler duvarda, tavanda ve tavandaki lineer aydınlatmanın iç kısmında uygulanmıştır.</p>
+                </div>
+              </div>
+              <div className="col-md-12 col-sm-12 col-xs-12">
                 <div className="proje-list">
                   <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
                   <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_02_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_02_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
@@ -106,12 +111,6 @@ export default function Home() {
                   <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_15_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_15_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
                   <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_16_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_16_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
                   <a href="/../proje1_BeyazIsikDisKlinigi/BYZ_17_web.jpg" target="_blank"><img className="proje-img" src="../proje1_BeyazIsikDisKlinigi/BYZ_17_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                </div>
-              </div>
-              <div className="col-md-right col-sm-12 col-xs-12 proje-right">
-                <div className="proje-text">
-                  <p><strong>AÇIKLAMA,Künye</strong></p>
-                  <p>Mecidiyeköy’de 2 kat ve 7 muayene odasından oluşan diş polikliniğindeki bekleme alanlarındaki duvar panelleri, banko ve banko arkası ahşap paneller, kafe bölümündeki dolap, bar masası ve niş içlerindeki ahşap rafların üretimi tamamlanmıştır. Ayrıca klinik odalarındaki tezgah altı dolapları, aynalar ve hekim masaları, klima arkasındaki lambiri panellerin üretimi yapılmıştır. Lobide bulunan dekoratif ahşap dikmeler duvarda, tavanda ve tavandaki lineer aydınlatmanın iç kısmında uygulanmıştır.</p>
                 </div>
               </div>
             </div>

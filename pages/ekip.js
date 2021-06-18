@@ -48,8 +48,8 @@ export default function Ekip() {
                   </li>
                 </ul>
                 <div className="sidebar-social-mobil">
-                  <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
-                  <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
+                  <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
+                  <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
                   <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
                 </div>  
               </nav>
@@ -78,8 +78,8 @@ export default function Ekip() {
             </ul> 
           </div>
           <div className="sidebar-social">
-            <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
-            <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
+            <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
             <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function Ekip() {
                 </div>
                 <div className="col-md-8 ekip-item-text">
                   <h2>Kadir Yasin Karali, <span>Mimar</span></h2>
-                  <h3>İstanbul Teknik Üniversitesi Mimarlık bölümünden 2007 yılında mezun oldu. O günden beri çeşitli projelendirme ve uygulama süreçlerinde görev yapmaktadır. Okul yıllarından beri süregelen ağaç ve ahşaba olan ilgisi; tecrübeli ve profesyonel bir tasarım, üretim ve işletme ekibiyle birleşerek  “Sekoya” adıyla devam etmektedir.</h3>
+                  <h3>İstanbul Teknik Üniversitesi Mimarlık bölümünden mezun oldum. Yurt içi ve yurt dışında çeşitli projelendirme ve uygulama süreçlerinde görev aldım. Yıllar içinde oluşan ağaç ve ahşaba olan ilgimi Sekoya çatısı altında profesyonel bir noktaya taşıdım.</h3>
                 </div>
               </div>
               <div className="ekip-item-negative">

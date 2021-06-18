@@ -307,7 +307,7 @@ main {
 .index {
   display: flex;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   background-color: white;
   border-left: 0px solid rgba(0, 0, 0, .1);
 }
@@ -377,7 +377,7 @@ main {
 }
 .hakkimizda h1 {
   color: #dac8b9;
-  margin: 4rem 0;
+  margin: 1rem 0 2rem;
   line-height: 1.5;
   font-size: 50px;
 }
@@ -451,7 +451,7 @@ main {
 }
 .ekip h1 {
   color: #dac8b9;
-  margin: 4rem 0;
+  margin: 1rem 0 2rem;
   line-height: 1.5;
   font-size: 50px;
 }
@@ -492,6 +492,12 @@ main {
     z-index: 10;
     background-color: white;
     border-left: 1px solid rgba(0, 0, 0, .1);
+  }
+  .ekip h1 {
+    color: #dac8b9;
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 50px;
   }
   .ekip-item-negative {
     display: flex;
@@ -679,8 +685,8 @@ main {
     transition: 0.7s;
   }
   .nasil-social-item {
-    height: 2rem;
-    width: 2rem;
+    height: 2rem !important;
+    width: 2rem !important;
     vertical-align: center;
   }
 }
@@ -698,8 +704,8 @@ main {
     font-size: 16px;
   }
   .nasil-social-item {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.5rem !important;
+    width: 2.5rem !important;
     vertical-align: center;
   }
 }
@@ -724,7 +730,7 @@ main {
   font-stretch: condensed;
   font-style: normal;
   font-weight: 500;
-  margin: 3rem 0;
+  margin: 1rem 0 2rem;
   padding: 0;
   color: #dac8b9;
   font-size: 50px; 
@@ -958,10 +964,16 @@ main {
   background-color: white;
   border-left: 1px solid rgba(0, 0, 0, .1);
 }
+.uygulama-item {
+  padding: 0.25rem;
+}
 .uygulama h1 {
-  margin: 4rem 0;
+  margin: 1rem 0 2rem;
   color: #dac8b9;
   font-size: 50px; 
+}
+.uygulama h3 {
+  text-align: center;
 }
 .uygulama-img {
   width: 100%;
@@ -1003,15 +1015,21 @@ main {
 /* Ürünler */
 
 .proje {
-  padding: 3.5rem 0 0;
+  padding: 1.5rem 0 0;
   background-color: white;
   border-left: 1px solid rgba(0, 0, 0, .1);
 }
 .proje h1 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   padding: 0 1.5rem;
   color: #dac8b9;
   font-size: 50px; 
+}
+.proje p {
+  margin:0 1.5rem 2rem;
+}
+.proje-inline {
+  padding: 0;
 }
 .proje-list {
   line-height: 0;       
@@ -1024,6 +1042,7 @@ main {
      display:inline-block;    
    margin-right: auto;    
    margin-left: auto;
+   padding: 0 0.5rem;
 }
 .proje-img {
   width: 100% !important;    
@@ -1034,11 +1053,8 @@ main {
   padding: 0;
 }
 .proje-text {
-  position: sticky;
   font-weight: 500;
   font-size: 14px;
-  top: 3rem;
-  padding-right: 1rem;
 }
 
 @media (min-width: 768px){
@@ -1050,10 +1066,16 @@ main {
     font-weight: 400;
   }
   .proje h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     padding: 0 110px;
     color: #dac8b9; 
     font-size: 50px;
+  }
+  .proje p {
+    margin:0 0rem 2rem;
+  }
+  .proje-inline {
+    padding: 0 110px;
   }
   .proje-list {
     line-height: 0;       
@@ -1066,13 +1088,11 @@ main {
        display:inline-block;    
      margin-right: auto;    
      margin-left: auto;
+     padding: 0;
   }
   .proje-text {
-    position: sticky;
     font-weight: 500;
     font-size: 14px;
-    top: 3rem;
-    padding-right: 1rem;
   }
 }
 
@@ -1085,7 +1105,7 @@ main {
     font-weight: 400;
   }
   .proje h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     padding: 0 110px;
     color: #dac8b9; 
     font-size: 64px;
@@ -1115,9 +1135,12 @@ main {
 .iletisim-web {
   display: none;
 }
+.iletisim-info-item {
+  display: flex;
+}
 .iletisim h1 {
   color: #dac8b9;
-  margin: 4rem 0 2rem;
+  margin: 1rem 0 2rem;
   line-height: 1.5;
   font-size: 50px;
 }
@@ -1129,7 +1152,7 @@ main {
   color: #6a6a6a;
   line-height: 1.8;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 0.5rem;
 }
 .iletisim h2:nth-child(2) {
   color: #9f6e47;
@@ -1163,6 +1186,11 @@ main {
   margin-bottom: 2rem;
   border-left: 3px solid #daac87;
   padding: 1rem;
+}
+.iletisim-social-item {
+  height: 1.25rem;
+  width: 1.25rem;
+  vertical-align: center;
 }
 .iletisim-form {
   font-family: futura, sans-serif;
@@ -1200,6 +1228,12 @@ main {
     z-index: 10;
     background-color: white;
     border-left: 1px solid rgba(0, 0, 0, .1);
+  }
+  .iletisim h1 {
+    color: #dac8b9;
+    margin: 4rem 0 2rem;
+    line-height: 1.5;
+    font-size: 50px;
   }
   .iletisim-mobil {
     display: none;
@@ -1289,14 +1323,14 @@ main {
 .mobil-nav nav {
   position: absolute;
   display: block;
-  top: 100%;
+  top: 99%;
   left: 0;
   width: 100%;
   height: auto;
   opacity: 0;
   visibility: hidden;
   transition: 0.7s all;
-  background-color: #9f6e47;
+  background-color: white;
   color: white;
   text-align: center;
   z-index: 30;
@@ -1306,7 +1340,7 @@ main {
 }
 .mobil-nav nav ul li a {
   padding: 0 3rem;
-  color: white;
+  color: black;
   width: 100%;
   text-align: center;
 }
@@ -1314,7 +1348,7 @@ main {
   transform: rotate(-90deg) ;
   transition: 0.7s all;
 }
-.mobil-nav button:focus + nav {
+.mobil-nav:focus-within nav {
   opacity: 1;
   visibility: visible;
   transition: 0.7s all;
