@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <div className="mobil-nav">
               <button><FontAwesomeIcon className="dropdown-item" icon={faBars}/></button>
-              <nav>
+              <nav tabIndex="1">
                 <ul>
                   <li className="sidebar-item">
                     <Link href="/hakkimizda">Hakkımızda</Link>
