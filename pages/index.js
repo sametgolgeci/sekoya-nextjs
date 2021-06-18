@@ -25,7 +25,7 @@ export default function Home() {
               <Link href="/"><a><img className="mobil-logo-img" src="sekoya-logo-2.png" alt="sekoya-logo"/></a></Link>
             </div>
             <div className="mobil-nav">
-              <button><FontAwesomeIcon className="dropdown-item" icon={faBars}/></button>
+              <button onclick="this.focus()"><FontAwesomeIcon className="dropdown-item" icon={faBars}/></button>
               <nav tabIndex="1">
                 <ul>
                   <li className="sidebar-item">
