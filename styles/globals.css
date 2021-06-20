@@ -1336,6 +1336,7 @@ main {
 }
 .mobil-dropdown summary {
   padding: 0 1rem;
+  outline: none;
 }
 .mobil-dropdown nav {
   position: absolute;
