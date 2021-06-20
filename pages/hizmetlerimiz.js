@@ -13,7 +13,9 @@ export default function Home() {
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <title>Sekoya | Hizmetlerimiz</title>
-        <link rel="icon" href="/favicon64.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/sekoya-logo-favicon-16.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/sekoya-logo-favicon-32.png"/>
+        <link rel="icon" type="image/png" sizes="64x64" href="/sekoya-logo-favicon-64.png"/>
       </Head>
       <main>
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
@@ -24,9 +26,13 @@ export default function Home() {
             <div className="mobil-logo">
               <Link href="/"><a><img className="mobil-logo-img" src="sekoya-logo-2.png" alt="sekoya-logo"/></a></Link>
             </div>
-            <div className="mobil-nav">
-              <button><FontAwesomeIcon className="dropdown-item" icon={faBars}/></button>
-              <nav>
+            <details className="mobil-dropdown">
+              <summary>
+                <span className="line"></span>
+                <span className="line"></span>
+                <span className="line"></span>
+              </summary>
+              <nav tabindex="1">
                 <ul>
                   <li className="sidebar-item">
                     <Link href="/hakkimizda">Hakkımızda</Link>
@@ -52,8 +58,8 @@ export default function Home() {
                   <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
                   <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
                 </div> 
-              </nav> 
-            </div>
+              </nav>
+            </details>
           </div>
           <div className="sidebar-items">
             <ul>
@@ -102,17 +108,17 @@ export default function Home() {
           <div className="hizmet-mobil-texts">
             <h1>Hizmetlerimiz</h1>
             <div className="hizmet-mobil-text">
-              <img className="hizmet-mobil-img" src="/sekoya-hizmet-1.jpg" alt="hizmet-1"/>
+              <img className="hizmet-mobil-img" src="/sekoya-hizmet-1-mobil.jpg" alt="hizmet-1"/>
               <h1>Özel Üretim Mobilya</h1>
               <h2>Özel tasarım dekorlar, sabit veya hareketli mobilyalar kullanıcı tarafından belirlenerek ya da mimarlarımız tarafından tasarlanarak  atölyemizde üretilmekte ve yerlerine montajı yapılmaktadır.</h2>
             </div>
             <div className="hizmet-mobil-text">
-              <img className="hizmet-mobil-img" src="/sekoya-hizmet-2.jpg" alt="hizmet-2"/>
+              <img className="hizmet-mobil-img" src="/sekoya-hizmet-2-mobil.jpg" alt="hizmet-2"/>
               <h1>Mimari Tasarım ve Uygulama</h1>
               <h2>Oteller, restoranlar, sağlık tesisleri ve konutlar gibi ahşabın girdiği tüm mekânlardaki sabit veya hareketli ahşap ürünler tasarlanmakta, detay çözümleri yapılmakta, modellemesi ve görselleştirmesi tamamlanarak uygulama aşamasına geçilmektedir.</h2>
             </div>
             <div className="hizmet-mobil-text">
-              <img className="hizmet-mobil-img" src="/sekoya-hizmet-3.jpg" alt="hizmet-3"/>
+              <img className="hizmet-mobil-img" src="/sekoya-hizmet-3-mobil.jpg" alt="hizmet-3"/>
               <h1>Hediyelik Eşya ve Aksesuar</h1>
               <h2>Tasarımını birlikte gerçekleştirdiğimiz hediyelik eşyaları, kişisel ürünleri, süs eşyalarını ve ahşap oyuncakları sizler için atölyemizde üretilmektedir.</h2>
             </div>

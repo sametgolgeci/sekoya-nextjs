@@ -13,7 +13,9 @@ export default function Nasil() {
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <title>Sekoya | Nasıl Çalışıyoruz</title>
-        <link rel="icon" href="/favicon64.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/sekoya-logo-favicon-16.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/sekoya-logo-favicon-32.png"/>
+        <link rel="icon" type="image/png" sizes="64x64" href="/sekoya-logo-favicon-64.png"/>
       </Head>
       <main>
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
@@ -24,9 +26,13 @@ export default function Nasil() {
             <div className="mobil-logo">
               <Link href="/"><a><img className="mobil-logo-img" src="sekoya-logo-2.png" alt="sekoya-logo"/></a></Link>
             </div>
-            <div className="mobil-nav">
-              <button><FontAwesomeIcon className="dropdown-item" icon={faBars}/></button>
-              <nav>
+            <details className="mobil-dropdown">
+              <summary>
+                <span className="line"></span>
+                <span className="line"></span>
+                <span className="line"></span>
+              </summary>
+              <nav tabindex="1">
                 <ul>
                   <li className="sidebar-item">
                     <Link href="/hakkimizda">Hakkımızda</Link>
@@ -51,9 +57,9 @@ export default function Nasil() {
                   <div className="sidebar-social-item"><a href="https://www.instagram.com/sekoyaahsap/" target="_blank"><FontAwesomeIcon className="social-item" icon={faInstagram}/></a></div>
                   <div className="sidebar-social-item"><a href="https://www.linkedin.com/company/sekoyaahsap" target="_blank"><FontAwesomeIcon className="social-item" icon={faLinkedinIn}/></a></div>
                   <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
-                </div>  
+                </div> 
               </nav>
-            </div>
+            </details>
           </div>
           <div className="sidebar-items">
             <ul>

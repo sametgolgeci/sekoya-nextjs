@@ -13,7 +13,9 @@ export default function Home() {
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <title>Sekoya | Projelerimiz</title>
-        <link rel="icon" href="/favicon64.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/sekoya-logo-favicon-16.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/sekoya-logo-favicon-32.png"/>
+        <link rel="icon" type="image/png" sizes="64x64" href="/sekoya-logo-favicon-64.png"/>
       </Head>
       <main>
         <div className="col-md-sidebar col-sm-12 col-xs-12 sidebar">
@@ -24,9 +26,13 @@ export default function Home() {
             <div className="mobil-logo">
               <Link href="/"><a><img className="mobil-logo-img" src="sekoya-logo-2.png" alt="sekoya-logo"/></a></Link>
             </div>
-            <div className="mobil-nav">
-              <button><FontAwesomeIcon className="dropdown-item" icon={faBars}/></button>
-              <nav>
+            <details className="mobil-dropdown">
+              <summary>
+                <span className="line"></span>
+                <span className="line"></span>
+                <span className="line"></span>
+              </summary>
+              <nav tabindex="1">
                 <ul>
                   <li className="sidebar-item">
                     <Link href="/hakkimizda">Hakkımızda</Link>
@@ -53,7 +59,7 @@ export default function Home() {
                   <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
                 </div> 
               </nav>
-            </div>
+            </details>
           </div>
           <div className="sidebar-items">
             <ul>
@@ -136,41 +142,49 @@ export default function Home() {
             <div className="row">
               <div className="col-md-4 uygulama-item">
                 <Link href="/projeler/beyaz-isik-dis-poliklinigi"><a href="">
-                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt="Beyaz Işık Diş Polikliniği"/>
-                  <div className="">
-                    <h3>Beyaz Işık Diş Polikliniği</h3>
-                  </div>
-                </a></Link>
-              </div>
-              <div className="col-md-4 uygulama-item">
-                <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_01_web.jpg" alt=""/>
+                  <img className="uygulama-img" src="proje_01/BYZ_01_web.jpg" alt="Beyaz Işık Diş Polikliniği"/>
                   <div className="">
                     <h5>Beyaz Işık Diş Polikliniği</h5>
                   </div>
                 </a></Link>
               </div>
               <div className="col-md-4 uygulama-item">
-                <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_03_web.jpg" alt=""/>
+                <Link href="/projeler/zilan-grup-yonetim-ofisi"><a href="">
+                  <img className="uygulama-img" src="proje_02/Zilan_01.jpg" alt="Zilan Grup Yönetim Ofisi"/>
                   <div className="">
-                    <h5>#Proje 3</h5>
+                    <h5>Zilan Grup Yönetim Ofisi</h5>
                   </div>
                 </a></Link>
               </div>
               <div className="col-md-4 uygulama-item">
-                <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_04_web.jpg" alt=""/>
+                <Link href="/projeler/atasehir-koc-diyaliz-merkezi"><a href="">
+                  <img className="uygulama-img" src="proje_03/Ata_01.jpg" alt="Ataşehir Koç Diyaliz Merkezi"/>
                   <div className="">
-                    <h5>#Proje 4</h5>
+                    <h5>Ataşehir Koç Diyaliz Merkezi</h5>
                   </div>
                 </a></Link>
               </div>
               <div className="col-md-4 uygulama-item">
-                <Link href="/projeler/proje1"><a href="">
-                  <img className="uygulama-img" src="proje1_BeyazIsikDisKlinigi/BYZ_05_web.jpg" alt=""/>
+                <Link href="/projeler/florya-manzak-evi"><a href="">
+                  <img className="uygulama-img" src="proje_04/FLR_01.jpg" alt="Florya Manzak Evi"/>
                   <div className="">
-                    <h5>#Proje 5</h5>
+                    <h5>Florya Manzak Evi</h5>
+                  </div>
+                </a></Link>
+              </div>
+              <div className="col-md-4 uygulama-item">
+                <Link href="/projeler/kariye-ahsap-ev"><a href="">
+                  <img className="uygulama-img" src="proje_05/KRY_01.jpg" alt="Kariye Ahşap Ev"/>
+                  <div className="">
+                    <h5>Kariye Ahşap Ev</h5>
+                  </div>
+                </a></Link>
+              </div>
+              <div className="col-md-4 uygulama-item">
+                <Link href="/projeler/delta-medikal-ofisi"><a href="">
+                  <img className="uygulama-img" src="proje_06/DLT_03.jpg" alt="Delta Medikal Ofisi"/>
+                  <div className="">
+                    <h5>Delta Medikal Ofisi</h5>
                   </div>
                 </a></Link>
               </div>
