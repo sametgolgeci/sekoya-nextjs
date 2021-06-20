@@ -101,7 +101,7 @@ export default function Home() {
             </div>
             <div className="hizmet-text text-3">
               <h1>Hediyelik Eşya ve Aksesuar</h1>
-              <h2>Tasarımını birlikte gerçekleştirdiğimiz hediyelik eşyaları, kişisel ürünleri, süs eşyalarını ve ahşap oyuncakları sizler için atölyemizde üretilmektedir.</h2>
+              <h2>Tasarımını birlikte gerçekleştirdiğimiz hediyelik eşyalar, kişisel ürünler, süs eşyaları ve ahşap oyuncaklar sizler için atölyemizde üretilmektedir. </h2>
             </div>
             <div className="hizmet-img"></div>
           </div>
@@ -120,7 +120,7 @@ export default function Home() {
             <div className="hizmet-mobil-text">
               <img className="hizmet-mobil-img" src="/sekoya-hizmet-3-mobil.jpg" alt="hizmet-3"/>
               <h1>Hediyelik Eşya ve Aksesuar</h1>
-              <h2>Tasarımını birlikte gerçekleştirdiğimiz hediyelik eşyaları, kişisel ürünleri, süs eşyalarını ve ahşap oyuncakları sizler için atölyemizde üretilmektedir.</h2>
+              <h2>Tasarımını birlikte gerçekleştirdiğimiz hediyelik eşyalar, kişisel ürünler, süs eşyaları ve ahşap oyuncaklar sizler için atölyemizde üretilmektedir. </h2>
             </div>
           </div>
         </div>
