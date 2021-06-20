@@ -1330,6 +1330,10 @@ main {
   cursor: pointer;
   display: block;
 }
+.mobil-dropdown:focus-visible {
+  outline: none;
+  border: 0px;
+}
 .mobil-dropdown summary {
   padding: 0 1rem;
 }
@@ -1340,7 +1344,6 @@ main {
   width: 100%;
   background-color: white;
   text-align: center;
-  transition: 0.7s all;
 }
 .mobil-dropdown nav ul li a {
   color: black;
@@ -1351,7 +1354,7 @@ main {
   display: block;
   background-color: black;
   margin: 4px auto;
-  transition: 0.7s all;
+  transition: 0.3s all;
 }
 
 details > summary::-webkit-details-marker, details summary::marker {
@@ -1360,15 +1363,15 @@ details > summary::-webkit-details-marker, details summary::marker {
 }
 details[open] summary .line:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
-  transition: 0.7s all;
+  transition: 0.3s all;
 }
 details[open] summary .line:nth-child(2) {
   opacity: 0;
-  transition: 0.7s all;
+  transition: 0.3s all;
 }
 details[open] summary .line:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
-  transition: 0.7s all;
+  transition: 0.3s all;
 }
 
 
