@@ -89,7 +89,7 @@ export default function Home() {
             <div className="sidebar-social-item"><a href="https://wa.me/905327076816" target="_blank"><FontAwesomeIcon className="social-item" icon={faWhatsapp}/></a></div>
           </div>
         </div>
-        <div className="col-md-main col-sm-12 col-xs-12 index">
+        <div className="col-md-main col-sm-12 col-xs-12 index overflow-page">
           <div className="col-md-6 col-sm-12 col-xs-12 index-img">
             <img src="sekoya-home-1.jpg" alt="sekoya-home"/>
           </div>

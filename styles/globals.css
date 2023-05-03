@@ -94,6 +94,15 @@ main {
   flex-wrap: wrap;
 }
 
+/* Fixed */
+
+.overflow-page{
+  overflow: hidden;
+}
+.overflow-page-x{
+  overflow-x: hidden;
+}
+
 /* Sidebar */
 
 .sidebar {
@@ -1221,6 +1230,9 @@ main {
   font-weight: 500;
   font-size: 14px;
   color: #6a6a6a;       
+}
+.iletisim-form > form{
+  margin-left: 0;
 }
 .iletisim-form-label {
   margin-top: 0.25rem !important;

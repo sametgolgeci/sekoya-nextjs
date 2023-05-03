@@ -141,10 +141,10 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-4 uygulama-item">
-                <Link href="/projeler/beyaz-isik-dis-poliklinigi"><a href="">
-                  <img className="uygulama-img" src="proje_01/BYZ_01_web.jpg" alt="Beyaz Işık Diş Polikliniği"/>
+                <Link href="/projeler/beyaz-isik-mecidiyekoy-dis-poliklinigi"><a href="">
+                  <img className="uygulama-img" src="proje_01/BYZ_01_web.jpg" alt="Beyaz Işık Mecidiyeköy Diş Polikliniği"/>
                   <div className="">
-                    <h5>Beyaz Işık Diş Polikliniği</h5>
+                    <h5>Beyaz Işık Mecidiyeköy Diş Polikliniği</h5>
                   </div>
                 </a></Link>
               </div>
@@ -157,18 +157,18 @@ export default function Home() {
                 </a></Link>
               </div>
               <div className="col-md-4 uygulama-item">
-                <Link href="/projeler/atasehir-koc-diyaliz-merkezi"><a href="">
-                  <img className="uygulama-img" src="proje_03/Ata_01.jpg" alt="Ataşehir Koç Diyaliz Merkezi"/>
+                <Link href="/projeler/sigma-merkez-ofis"><a href="">
+                  <img className="uygulama-img" src="proje_07/SIGMA_02.jpg" alt="Sigma Merkez Ofis"/>
                   <div className="">
-                    <h5>Ataşehir Koç Diyaliz Merkezi</h5>
+                    <h5>Sigma Merkez Ofis</h5>
                   </div>
                 </a></Link>
               </div>
               <div className="col-md-4 uygulama-item">
-                <Link href="/projeler/florya-manzak-evi"><a href="">
-                  <img className="uygulama-img" src="proje_04/FLR_01.jpg" alt="Florya Manzak Evi"/>
+                <Link href="/projeler/beyaz-isik-fulya-dis-poliklinigi"><a href="">
+                  <img className="uygulama-img" src="proje_08/FULYA_11.jpg" alt="Beyaz Işık Fulya Diş Polikliniği"/>
                   <div className="">
-                    <h5>Florya Manzak Evi</h5>
+                    <h5>Beyaz Işık Fulya Diş Polikliniği</h5>
                   </div>
                 </a></Link>
               </div>
@@ -180,6 +180,47 @@ export default function Home() {
                   </div>
                 </a></Link>
               </div>
+              <div className="col-md-4 uygulama-item">
+                <Link href="/projeler/atakoy-bufeterya"><a href="">
+                  <img className="uygulama-img" src="proje_09/BUFE_02.jpg" alt="Ataköy Büfeterya"/>
+                  <div className="">
+                    <h5>Ataköy Büfeterya</h5>
+                  </div>
+                </a></Link>
+              </div>
+              <div className="col-md-4 uygulama-item">
+                <Link href="/projeler/maltepe-sahil-dis-poliklinigi"><a href="">
+                  <img className="uygulama-img" src="proje_10/MALTEPE_08.jpg" alt="Maltepe Sahil Diş Polikliniği"/>
+                  <div className="">
+                    <h5>Maltepe Sahil Diş Polikliniği</h5>
+                  </div>
+                </a></Link>
+              </div>
+              <div className="col-md-4 uygulama-item">
+                <Link href="/projeler/atasehir-koc-diyaliz-merkezi"><a href="">
+                  <img className="uygulama-img" src="proje_03/Ata_01.jpg" alt="Ataşehir Koç Diyaliz Merkezi"/>
+                  <div className="">
+                    <h5>Ataşehir Koç Diyaliz Merkezi</h5>
+                  </div>
+                </a></Link>
+              </div>
+              <div className="col-md-4 uygulama-item">
+                <Link href="/projeler/musluman-eller-ofis"><a href="">
+                  <img className="uygulama-img" src="proje_11/MUS_03.jpg" alt="Müslüman Eller Ofis"/>
+                  <div className="">
+                    <h5>Müslüman Eller Ofis</h5>
+                  </div>
+                </a></Link>
+              </div>
+              <div className="col-md-4 uygulama-item">
+                <Link href="/projeler/florya-manzak-evi"><a href="">
+                  <img className="uygulama-img" src="proje_04/FLR_01.jpg" alt="Florya Manzak Evi"/>
+                  <div className="">
+                    <h5>Florya Manzak Evi</h5>
+                  </div>
+                </a></Link>
+              </div>
+              
               <div className="col-md-4 uygulama-item">
                 <Link href="/projeler/delta-medikal-ofisi"><a href="">
                   <img className="uygulama-img" src="proje_06/DLT_03.jpg" alt="Delta Medikal Ofisi"/>

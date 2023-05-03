@@ -12,7 +12,7 @@ export default function Home() {
         <meta charset="utf-8"/>
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <title>Sekoya | Beyaz Işık Diş Polikliniği</title>
+        <title>Sekoya | Müslüman Eller Ofis</title>
         <script type="text/javascript" src="../static/main.js"></script>
         <link rel="icon" href="/favicon64.png"/>
       </Head>
@@ -89,33 +89,20 @@ export default function Home() {
           </div>
         </div>
         <div className="col-md-main col-sm-12 col-xs-12 proje">
-        <h1>Beyaz Işık Diş Polikliniği</h1>
+        <h1>Müslüman Eller Ofis</h1>
           <div className="container">
             <div className="row proje-inline">
               <div className="col-md-12 col-sm-12 col-xs-12 proje-right">
                 <div className="proje-text">
-                  <p>Mecidiyeköy’de bulunan ve 7 muayene odasından oluşan Beyaz Işık Diş Polikliniği, modern ve minimal tasarım örneklerinden biridir. Atölyemizde üretimini yapmış olduğumuz ahşap işleri arasında bekleme alanlarındaki duvar panelleri, banko ve banko arkası ahşap paneller, kafe bölümündeki dolap, bar masası ve niş içlerindeki ahşap raflar yer almaktadır. Ayrıca klinik odalarındaki tezgah altı dolapları, aynalar ve hekim masaları, klima arkasındaki lambiri panellerin üretimi de tarafımızca yapılmıştır. Titiz bir işçilikle lobide bulunan dekoratif ahşap dikmeler duvarda, tavanda ve tavandaki lineer aydınlatmanın iç kısmında uygulanarak mekândaki bütünlük sağlanmıştır. </p>
+                  <p>İstanbul Mecidiyeköy’de bulunan “Müslüman Eller Türkiye” vakfı ofisinin lobisi için karşılama bankosu, banko arkasında metal profil konstrüksiyon içerisinde dekoratif kutu ve raflardan oluşan ünite, dekoratif lineer ahşap dikmelerden oluşan seperatör ve duvar kaplamaları üretilmiştir.</p>
                 </div>
               </div>
               <div className="col-md-12 col-sm-12 col-xs-12">
                 <div className="proje-list">
-                  <a href="/../proje_01/BYZ_01_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_01_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_02_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_02_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_03_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_03_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_04_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_04_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_05_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_05_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_06_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_06_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_07_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_07_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_08_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_08_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_09_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_09_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_10_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_10_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_11_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_11_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_12_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_12_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_13_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_13_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_14_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_14_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_15_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_15_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_16_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_16_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
-                  <a href="/../proje_01/BYZ_17_web.jpg" target="_blank"><img className="proje-img" src="../proje_01/BYZ_17_web.jpg" alt="Beyaz Işık Diş Kliniği"/></a>
+                  <a href="/../proje_11/MUS_01.jpg" target="_blank"><img className="proje-img" src="../proje_11/MUS_01.jpg" alt="Müslüman Eller Ofis"/></a>
+                  <a href="/../proje_11/MUS_02.jpg" target="_blank"><img className="proje-img" src="../proje_11/MUS_02.jpg" alt="Müslüman Eller Ofis"/></a>
+                  <a href="/../proje_11/MUS_03.jpg" target="_blank"><img className="proje-img" src="../proje_11/MUS_03.jpg" alt="Müslüman Eller Ofis"/></a>
+                  <a href="/../proje_11/MUS_04.jpg" target="_blank"><img className="proje-img" src="../proje_11/MUS_04.jpg" alt="Müslüman Eller Ofis"/></a>
                 </div>
               </div>
             </div>
