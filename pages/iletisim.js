@@ -7,7 +7,7 @@ import React from 'react'
 
 
 export default function Home() {
-
+{/*
   function sendEmail(e) {
     e.preventDefault();
 
@@ -20,7 +20,7 @@ export default function Home() {
           alert('Bir hata oluştu, lütfen bilgileriniz kontrol ediniz!');
       });
   }
-
+*/}
   return (
     <div>
       <Head>
@@ -120,6 +120,7 @@ export default function Home() {
               <h2><a href="mailto:info@sekoyaahsap.com">info@sekoyaahsap.com</a></h2>
               <h2>Flatofis Haliç Defterdar Mh. Otlakçılar Cd. No:78 Kat:4 İç Kapı No:94 Eyüpsultan/İstanbul</h2>
             </div>
+            {/*
             <div className="iletisim-mail">
               <div className="iletisim-form">
                 <form class="row" method="post" onSubmit={sendEmail} action="/mesaj">
@@ -141,6 +142,7 @@ export default function Home() {
                 </form>
               </div>
             </div>
+            */}
           </div>
         </div>
       </main>
