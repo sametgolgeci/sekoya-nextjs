@@ -27,7 +27,6 @@ export default function Home() {
               {projects.map((project, index) => (
               <div key={index} className="col-md-4 col-sm-6 col-12 uygulama-item">
                 <Link href={`/projeler/${project.slug}`}>
-                  <a>
                     <img
                       className="uygulama-img"
                       src={project.images[0]}
@@ -36,7 +35,6 @@ export default function Home() {
                     <div>
                       <h5>{project.title}</h5>
                     </div>
-                  </a>
                 </Link>
               </div>
               ))}

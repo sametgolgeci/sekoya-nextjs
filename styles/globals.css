@@ -299,7 +299,7 @@ main {
     text-align: left;
     margin-left: 25%;
   }
-  ..sidebar-social-item {
+  .sidebar-social-item {
     margin: 1rem 0.75rem;
     width: 1.5rem;
     height: 1.5rem;
