@@ -5,20 +5,7 @@ import React from 'react'
 
 
 export default function Home() {
-{/*
-  function sendEmail(e) {
-    e.preventDefault();
 
-    emailjs.sendForm('service_u2sza0t', 'template_0h2gaba', e.target, 'user_ehvVXNhBAZi1VWbiIvJO6')
-      .then((result) => {
-          console.log(result.text);
-          alert('Mesajınız gönderilmiştir!');
-      }, (error) => {
-          console.log(error.text);
-          alert('Bir hata oluştu, lütfen bilgileriniz kontrol ediniz!');
-      });
-  }
-*/}
   return (
     <div>
       <Head>
@@ -48,29 +35,6 @@ export default function Home() {
               <h2><a href="mailto:info@sekoyaahsap.com">info@sekoyaahsap.com</a></h2>
               <h2>Flatofis Haliç Defterdar Mh. Otlakçılar Cd. No:78 Kat:4 İç Kapı No:94 Eyüpsultan/İstanbul</h2>
             </div>
-            {/*
-            <div className="iletisim-mail">
-              <div className="iletisim-form">
-                <form class="row" method="post" onSubmit={sendEmail} action="/mesaj">
-                  <div class="col-md-12 iletisim-form-label">
-                    <label for="validationDefault01" class="form-label">Ad Soyad</label>
-                    <input type="text" class="form-control" id="validationDefault01" name="to_name" required/>
-                  </div>
-                  <div class="col-md-12 iletisim-form-label">
-                    <label type="email" for="validationDefault02" class="form-label">Mail</label>
-                    <input type="text" class="form-control" id="validationDefault02" oninvalid="this.setCustomValidity('Please Enter valid email')" name="to_mail" required/>
-                  </div>
-                  <div class="col-md-12 iletisim-form-label">
-                    <label for="validationTextarea" class="form-label">Mesaj</label>
-                    <textarea class="form-control" id="validationTextarea" rows="3" name="message" required></textarea>
-                  </div>
-                  <div class="col-md-12 iletisim-form-label">
-                    <button class="iletisim-button" type="submit">Gönder</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            */}
           </div>
         </div>
       </main>
